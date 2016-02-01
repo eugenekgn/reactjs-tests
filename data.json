@@ -1,0 +1,17 @@
+[{
+  name: 'Eugene Kagan',
+  job: 'software engineer',
+  employedSince: 2010
+},{
+  name: 'Igor ',
+  job: 'Engineer',
+  employedSince: 2009
+},{
+  name: 'Irina',
+  job: 'Teacher',
+  employedSince: 2010
+},{
+  name: 'George',
+  job: 'deployement engineer',
+  employedSince: 2010
+}]

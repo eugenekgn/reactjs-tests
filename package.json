@@ -2,9 +2,8 @@
   "name": "reactjs-test",
   "version": "1.0.0",
   "description": "Testing ReactJs",
-  "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha './app/**/*.spec.js' --compilers js:babel-core/register"
   },
   "repository": {
     "type": "git",
