@@ -1,0 +1,35 @@
+{
+  "name": "reactjs-test",
+  "version": "1.0.0",
+  "description": "Testing ReactJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugenekgn/reactjs-tests.git"
+  },
+  "keywords": [
+    "ReactJs"
+  ],
+  "author": "Eugene Kagan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eugenekgn/reactjs-tests/issues"
+  },
+  "homepage": "https://github.com/eugenekgn/reactjs-tests#readme",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-2": "^6.3.13",
+    "expect": "^1.13.4",
+    "mocha": "^2.4.5",
+    "react-addons-test-utils": "^0.14.7"
+  }
+}
