@@ -1,20 +1,10 @@
 import React from 'react';
 import TestUtils from 'react-addons-test-utils';
 import expect from 'expect-jsx';
-//import GridRow from './employeeGrid.row.jsx'
+import { GridRow } from './employeeGrid.row'
 
-class GridRow extends React.Component {
-  render() {
-    return (<tr>
-      <td>{this.props.employee.name}</td>
-      <td>{this.props.employee.position}</td>
-      <td>{this.props.employee.yearStarted}</td>
-    </tr>)
-  }
-}
 
 describe('Grid Row', () => {
-
 
   it('Row Actions Test', ()=> {
 
@@ -23,6 +13,8 @@ describe('Grid Row', () => {
       "position": "Software Engineer",
       "yearStarted": 2010
     };
+
+    console.log(GridRow);
 
     // shallow render
     // renders only one level deep
